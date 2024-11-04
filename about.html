@@ -1,9 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sobre</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f0f0f0;
+        color: #333;
+      }
+
+      header {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header img {
+        height: 50px;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 8px 16px;
+      }
+
+      nav ul li a:hover {
+        background-color: #ff0000;
+        border-radius: 4px;
+      }
+
+      main {
+        padding: 20px;
+        background-color: #ffffff;
+        min-height: 80vh;
+      }
+
+      .cards {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .cards {
+        width: 300px;
+        height: 350px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+
+      footer {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fb0000;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      footer .section {
+        width: 30%;
+        justify-content: space-between;
+      }
+
+      footer ul {
+        list-style: none;
+        justify-content: space-between;
+      }
+
+      footer ul li {
+        margin-bottom: 10px;
+        justify-content: space-evenly;
+      }
+
+      footer ul li a {
+        color: #fff;
+        text-decoration: none;
+        justify-content: space-between;
+      }
+
+      main form div img {
+        justify-content: flex-end;
+        display: flex;
+        margin: 20px;
+        width: 10px;
+        height: 10px;
+      }
+
+      main {
+        display: flex;
+        background-color: #fff;
+        height: 80vh;
+        font-size: medium;
+      }
+
+      main div p {
+        display: flex;
+        font-size: medium;
+      }
+
+      .img img {
+        height: auto;
+        width: 750px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./logo.png" alt="" />
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="marketplace.html">Marketplace</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="img">
+        <img src="./senai.jpg" alt="" />
+      </div>
+      <div class="text">
+        <h1>SENAI</h1>
+        <p>
+          O SENAI, Serviço Nacional de Aprendizagem Industrial, é uma
+          instituição brasileira que oferece ensino técnico e profissionalizante
+          voltado para a formação de mão de obra qualificada para a indústria.
+          Criado em 1942, o SENAI é hoje uma das maiores e mais respeitadas
+          redes de educação profissional e tecnológica da América Latina.
+        </p>
+        <p>
+          Sua atuação se dá em parceria com empresas e setores industriais para
+          atender às necessidades de qualificação e inovação, com o objetivo de
+          fortalecer a competitividade da indústria no Brasil.
+        </p>
+        <p>
+          O SENAI tem como principal missão a formação profissional, oferecendo
+          cursos técnicos, de qualificação e de aperfeiçoamento, tanto
+          presenciais quanto a distância, em áreas como automação, mecânica,
+          eletrônica, tecnologia da informação e muitas outras.
+        </p>
+        <p>
+          Esses cursos são estruturados para preparar os alunos para o mercado
+          de trabalho, especialmente no setor industrial, fornecendo
+          conhecimentos práticos e teóricos que atendem às demandas reais das
+          empresas.
+        </p>
+        <p>
+          Além da formação de profissionais, o SENAI investe em educação e
+          inovação tecnológica, promovendo pesquisa e desenvolvimento de
+          tecnologias aplicadas à indústria. Com isso, busca-se aprimorar os
+          processos produtivos e a eficiência das empresas, contribuindo para o
+          desenvolvimento tecnológico do país.
+        </p>
+        <p>
+          O SENAI também conta com institutos de inovação e tecnologia, onde
+          realiza projetos de pesquisa aplicada, muitas vezes em colaboração com
+          empresas, o que ajuda a fortalecer a capacidade competitiva da
+          indústria brasileira.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="section">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="marketplace.html">Marketplace</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="">Email: exemplo@senai.br</a></li>
+          <li><a href="">Telefone: (11) 1234-5678</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
