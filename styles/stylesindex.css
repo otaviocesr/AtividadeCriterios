@@ -5,10 +5,6 @@
   text-decoration: none;
 }
 
-body {
-  background-color: white;
-}
-
 .menu {
   padding: 10px;
   width: 100%;
@@ -16,8 +12,8 @@ body {
 }
 
 .menu nav a img {
-  width: 170px;
-  height: 50px;
+  width: 220px;
+  height: 70px;
 }
 
 .menu nav {
